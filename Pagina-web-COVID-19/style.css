@@ -1,0 +1,109 @@
+:root {
+--main-color-gris: #373737;
+--main-color-naranja: #E37222;
+--main-color-azul-uno: #07889B;
+--main-color-azul-dos: #66B9BF;
+--main-color-hueso: #F1F7ED;
+
+--main-bg-color-cafe: #373737;
+--main-bg-color-naranja: #E37222;
+--main-bg-color-azul-uno: #07889B;
+--main-bg-color-azul-dos: #66B9BF;
+--main-bg-color-hueso: #F1F7ED;
+}
+
+.navbar.navbar-default{
+display: inline-block;
+}
+img{
+  height: 100px;
+
+}
+.list-unstyled.mb-0{
+border: 2px solid;
+border-radius: 10px;
+ border-color: var(--main-color-naranja);
+}
+
+.list-unstyled.mb-0 a:hover{
+ color: var(--main-color-naranja)!important;
+}
+.bg-dark.text-center.text-white{
+  background-color: var(--main-color-azul-dos)!important;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+li.active a{
+background-color: var(--main-color-naranja)!important;
+}
+ul li a{
+color:var(--main-color-hueso)!important;
+}
+
+ul {
+background-color: var(--main-bg-color-azul-uno);
+}
+
+.text-center.p-3{
+  background-color: var(--main-bg-color-azul-uno);
+  color :  var(--main-color-hueso)!important;
+}
+.containeLogin{
+    width: 500px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: var(--main-color-naranja);
+    margin-top: 70px;
+    height: 300px;
+}
+.containeLogin center{
+  height: 60px;
+  background:var(--main-bg-color-naranja);
+  color: white;
+  font-size: 30px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+.containeLogin input{
+    margin-top: 10px;
+    width: 280px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-left: 10px;
+    border-color:var(--main-color-naranja);
+    padding: 10px;
+}
+.oCon{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.containeLogin button{
+    width: 100px;
+    margin-right: 10px;
+    background: var(--main-bg-color-naranja);
+    border-radius: 10px;
+    color: var(--main-color-hueso);
+    border: 2px solid var(--main-color-hueso);
+}
+.tableCrudEps th{
+    background: var(--main-bg-color-naranja);
+    height: 60px;
+    text-align: center;
+    color: white;
+}
+.tableCrudEps tr{
+    height: 60px;
+}
+.tableCrudEps td{
+    padding: 5px;
+}
+.tableCrudEps button,.button2{
+    width: 100px;
+    margin-right: 10px;
+    background: var(--main-bg-color-naranja);
+    border-radius: 10px;
+    color: var(--main-color-hueso);
+    border: 2px solid var(--main-color-hueso);
+}
